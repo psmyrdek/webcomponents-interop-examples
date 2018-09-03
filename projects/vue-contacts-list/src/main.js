@@ -4,7 +4,6 @@ import defineCustomElements from './defineCustomElements'
 
 Vue.config.productionTip = false
 
-
 defineCustomElements();
 
 new Vue({

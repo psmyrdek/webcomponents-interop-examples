@@ -1,4 +1,4 @@
-export class FancyGreetings extends HTMLElement {
+export class SmartGreetings extends HTMLElement {
 
     connectedCallback() {
         this.render();

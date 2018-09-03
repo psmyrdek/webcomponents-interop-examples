@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <fancy-greetings recipient="John Doe"></fancy-greetings>
+    <smart-greetings recipient="John Doe"></smart-greetings>
+    <smart-clock></smart-clock>
   </div>
 </template>
 
