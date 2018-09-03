@@ -1,5 +1,7 @@
-module.exports = {
-  presets: [
-    '@vue/app'
-  ]
-}
+const presets = [
+  ["@babel/env", {
+    useBuiltIns: "usage"
+  }]
+];
+
+module.exports = { presets };
