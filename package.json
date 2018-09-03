@@ -7,6 +7,7 @@
     "url": "git+https://github.com/psmyrdek/webcomponents-interop-examples.git"
   },
   "scripts": {
+    "setup": "cd projects && npm install --prefix react-contacts-list && npm install --prefix angular-contacts-list && npm install --prefix vue-contacts-list",
     "start:all": "npm-run-all -p start:react start:angular start:vue",
     "start:react": "cd projects/react-contacts-list && npm start",
     "start:angular": "cd projects/angular-contacts-list && ng serve",
