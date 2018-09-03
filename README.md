@@ -20,6 +20,8 @@ You can also execute individual scripts to run only one app at once:
 * Angular app - http://localhost:4200/
 * Vue app - http://localhost:8081/
 
+* Web Components Demos - http://localhost:8090/
+
 ## Resources
 
 * https://developers.google.com/web/fundamentals/web-components/customelements

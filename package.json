@@ -8,10 +8,11 @@
   },
   "scripts": {
     "setup": "cd projects && npm install --prefix react-contacts-list && npm install --prefix angular-contacts-list && npm install --prefix vue-contacts-list",
-    "start:all": "npm-run-all -p start:react start:angular start:vue",
+    "start:all": "npm-run-all -p start:react start:angular start:vue start:wc",
     "start:react": "cd projects/react-contacts-list && npm start",
     "start:angular": "cd projects/angular-contacts-list && ng serve",
-    "start:vue": "cd projects/vue-contacts-list && npm run serve"
+    "start:vue": "cd projects/vue-contacts-list && npm run serve",
+    "start:wc": "live-server ./web-components --port=8090"
   },
   "author": "psmyrdek",
   "license": "MIT",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/psmyrdek/webcomponents-interop-examples#readme",
   "devDependencies": {
+    "live-server": "1.2.0",
     "npm-run-all": "4.1.3"
   }
 }
