@@ -1,0 +1,24 @@
+{
+  "name": "webcomponents-interop-examples",
+  "version": "1.0.0",
+  "description": "Examples of Web Components interop capabilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psmyrdek/webcomponents-interop-examples.git"
+  },
+  "scripts": {
+    "start:all": "npm-run-all -p start:react start:angular start:vue",
+    "start:react": "cd projects/react-contacts-list && npm start",
+    "start:angular": "cd projects/angular-contacts-list && ng serve",
+    "start:vue": "cd projects/vue-contacts-list && npm run serve"
+  },
+  "author": "psmyrdek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psmyrdek/webcomponents-interop-examples/issues"
+  },
+  "homepage": "https://github.com/psmyrdek/webcomponents-interop-examples#readme",
+  "devDependencies": {
+    "npm-run-all": "4.1.3"
+  }
+}
