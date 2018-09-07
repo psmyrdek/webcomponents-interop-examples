@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Contact } from '../shared/contact.model';
 
 @Component({
@@ -6,14 +6,20 @@ import { Contact } from '../shared/contact.model';
   templateUrl: './contact-card.component.html',
   styleUrls: ['./contact-card.component.css']
 })
-export class ContactCardComponent implements OnInit {
+export class ContactCardComponent {
 
   @Input()
   contact: Contact;
 
+  @Input()
+  avatarSize: number;
+
+  optionsVisible: boolean = false;
+
   constructor() { }
 
-  ngOnInit() {
+  handleOptions() {
+    this.optionsVisible = true;
   }
 
 }

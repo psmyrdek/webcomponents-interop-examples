@@ -1,5 +1,6 @@
 .contact-card {
     padding: 10px;
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,4 +23,30 @@
     color: white;
     justify-content: space-between;
     text-align: right;
+}
+
+.card-options {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px 3px;
+    border-radius: 5px;
+    left: 150px;
+}
+
+.card-options button {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: gray;
+    width: 100px;
+    font-size: 14px;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.card-options button.close {
+    width: 50px;
+    margin-left: 10px;
+    color: #5a5a5a;
 }

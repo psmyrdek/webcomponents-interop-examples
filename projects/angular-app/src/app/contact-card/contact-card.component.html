@@ -1,10 +1,16 @@
-<div class="contact-card">
-  <smart-avatar [attr.avatar-url]="contact.avatarUrl"></smart-avatar>
+<div class="contact-card" *ngIf="contact">
+  <smart-avatar [attr.url]="contact.avatarUrl" [size]="avatarSize" (plus-clicked)="handleOptions()"></smart-avatar>
   <div class="contact-name">
     <p>{{contact.name}}</p>
   </div>
   <div class="contact-details">
     <p>{{contact.phoneNo}}</p>
     <p>{{contact.email}}</p>
+  </div>
+  <div class="card-options" *ngIf="optionsVisible">
+    <button>Call</button>
+    <button>Message</button>
+    <button>Share</button>
+    <button class="close" (click)="optionsVisible = false;">X</button>
   </div>
 </div>

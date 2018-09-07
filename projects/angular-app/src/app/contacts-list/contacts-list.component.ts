@@ -10,11 +10,24 @@ import { Contact } from '../shared/contact.model';
 export class ContactsListComponent implements OnInit {
 
   contacts: Contact[] = [];
+  avatarSize = 100;
 
   constructor(private service: ContactsService) { }
 
   ngOnInit() {
     this.contacts = this.service.getAll();
+  }
+
+  makeSmaller() {
+    this.avatarSize -= 10;
+  }
+
+  makeBigger() {
+    this.avatarSize += 10;
+  }
+
+  resetSize() {
+    this.avatarSize = 100;
   }
 
 }

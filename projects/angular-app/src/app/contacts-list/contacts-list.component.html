@@ -5,6 +5,11 @@
     <smart-clock></smart-clock>
   </div>
   <div class="list-body">
-    <app-contact-card *ngFor="let contact of contacts" [contact]="contact"></app-contact-card>
+    <app-contact-card *ngFor="let contact of contacts" [contact]="contact" [avatarSize]="avatarSize"></app-contact-card>
   </div>
+</div>
+<div class="configuration">
+  <button (click)="makeSmaller()">Smaller avatars</button>
+  <button (click)="makeBigger()">Bigger avatars</button>
+  <button (click)="resetSize()">Reset</button>
 </div>

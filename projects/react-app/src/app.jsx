@@ -11,7 +11,7 @@ class MyApp extends Component {
             <div>
                 <smart-greetings recipient="Krakow.JS"></smart-greetings>
                 <smart-clock></smart-clock>
-                <smart-avatar avatar-url="https://image.ibb.co/kFAbfK/1500295159151.jpg"></smart-avatar>
+                <smart-avatar url="https://image.ibb.co/kFAbfK/1500295159151.jpg"></smart-avatar>
             </div>
         )
     }
