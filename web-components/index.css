@@ -10,18 +10,38 @@ header {
 
 .element-wrapper {
     margin: 10px;
-    background: #f9f9f9;
     border: 1px solid #ececec;
     border-bottom: 3px solid #e8e8e8;
 }
 
 .element-wrapper h2 {
     margin: 0;
-    background: #9c2d47;
+    background: #420954;
     color: white;
     padding: 20px;
 }
 
 .element-body {
     padding: 20px;
+}
+
+.element-docs {
+    padding: 10px 20px;
+    background: #f7f7f7;
+}
+
+.element-docs p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #420954;
+}
+
+.element-docs ul {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.element-docs ul li {
+    list-style-type: none;
+    font-size: 12px;
 }

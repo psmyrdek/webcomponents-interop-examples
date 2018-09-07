@@ -7,11 +7,11 @@
     "url": "git+https://github.com/psmyrdek/webcomponents-interop-examples.git"
   },
   "scripts": {
-    "setup": "cd projects && npm install --prefix react-contacts-list && npm install --prefix angular-contacts-list && npm install --prefix vue-contacts-list",
+    "setup": "cd projects && npm install --prefix react-app && npm install --prefix angular-app && npm install --prefix vue-app",
     "start:all": "npm-run-all -p start:react start:angular start:vue start:wc",
-    "start:react": "cd projects/react-contacts-list && npm start",
-    "start:angular": "cd projects/angular-contacts-list && ng serve",
-    "start:vue": "cd projects/vue-contacts-list && npm run serve",
+    "start:react": "cd projects/react-app && npm start",
+    "start:angular": "cd projects/angular-app && ng serve",
+    "start:vue": "cd projects/vue-app && npm run serve",
     "start:wc": "live-server ./web-components --port=8090"
   },
   "author": "psmyrdek",

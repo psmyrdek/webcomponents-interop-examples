@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Components Interop Examples</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>SmartCompany (TM) Design System</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -16,15 +16,44 @@
     </header>
 
     <div class="element-wrapper">
+        <h2>Smart Clock</h2>
+        <div class="element-body">
+            <smart-clock></smart-clock>
+        </div>
+        <div class="element-docs">
+            <p>Selector - <code>smart-clock</code></p>
+        </div>
+    </div>
+
+    <div class="element-wrapper">
         <h2>Smart Greetings</h2>
         <div class="element-body">
             <smart-greetings recipient="John Doe"></smart-greetings>
         </div>
+        <div class="element-docs">
+            <p>Selector - <code>smart-greetings</code></p>
+            <p>Attributes</p>
+            <ul>
+                <li>recipient</li>
+            </ul>
+        </div>
     </div>
+
     <div class="element-wrapper">
-        <h2>Smart Clock</h2>
+        <h2>Smart Avatar</h2>
         <div class="element-body">
-            <smart-clock></smart-clock>
+            <smart-avatar avatar-url="https://image.ibb.co/kFAbfK/1500295159151.jpg"></smart-avatar>
+        </div>
+        <div class="element-docs">
+            <p>Selector - <code>smart-avatar</code></p>
+            <p>Attributes</p>
+            <ul>
+                <li>avatar-url</li>
+            </ul>
+            <p>Parameters</p>
+            <ul>
+                <li>avatarSize (number)</li>
+            </ul>
         </div>
     </div>
 

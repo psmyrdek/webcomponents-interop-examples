@@ -1,3 +1,5 @@
+import {createStyles} from '../helpers/createStyles.js';
+
 export class SmartGreetings extends HTMLElement {
 
     connectedCallback() {
@@ -6,7 +8,13 @@ export class SmartGreetings extends HTMLElement {
 
     render() {
         this.innerHTML = `
-            <p>Hello, ${this.getAttribute('recipient')}!</p>
+            ${createStyles({
+                recipient: {
+                    color: '#4ce8b6',
+                    fontWeight: '700'
+                }
+            })}
+            <p>Hello <span class="recipient">${this.getAttribute('recipient')}</span></p>
         `
     }
 
