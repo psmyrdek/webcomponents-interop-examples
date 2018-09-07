@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <smart-greetings recipient="John Doe"></smart-greetings>
     <smart-clock></smart-clock>
+    <smart-avatar avatar-url="https://image.ibb.co/kFAbfK/1500295159151.jpg"></smart-avatar>
   </div>
 </template>
 

@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-import defineCustomElements from '../../../web-components/index.js'
+import {defineCustomElements} from '../../../web-components/index'
 
 if (environment.production) {
   enableProdMode();

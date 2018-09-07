@@ -1,0 +1,21 @@
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background: #717171;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.list-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #676767;
+}

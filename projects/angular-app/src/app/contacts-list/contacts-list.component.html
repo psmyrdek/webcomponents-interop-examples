@@ -1,0 +1,10 @@
+<div class="contacts-list">
+  <div class="list-header">
+    <smart-greetings recipient="John Doe"></smart-greetings>
+    <h1>Contacts List</h1>
+    <smart-clock></smart-clock>
+  </div>
+  <div class="list-body">
+    <app-contact-card *ngFor="let contact of contacts" [contact]="contact"></app-contact-card>
+  </div>
+</div>

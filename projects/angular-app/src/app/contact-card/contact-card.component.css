@@ -1,0 +1,25 @@
+.contact-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid dimgrey;
+}
+
+.contact-card:hover {
+    background: #777777;
+}
+
+.contact-name {
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.contact-details {
+    color: white;
+    justify-content: space-between;
+    text-align: right;
+}

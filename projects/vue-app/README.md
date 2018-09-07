@@ -1,4 +1,4 @@
-# vue-contacts-list
+# vue-app
 
 ## Project setup
 ```

@@ -1,10 +1,21 @@
 const path = require('path')
 
 module.exports = {
-    entry: './src/app.js',
+    entry: './src/app.jsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js|.jsx$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader"
+                }
+            }
+        ]
     },
     devtool: '#source-map',
     devServer: {
@@ -13,7 +24,7 @@ module.exports = {
         hot: false,
         port: 9000,
         setup: function (app) {
-            
+
         }
     }
 }
