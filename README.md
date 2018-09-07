@@ -18,7 +18,7 @@ You can also execute individual scripts to run only one app at once:
 
 * React app - http://localhost:9000/
 * Angular app - http://localhost:4200/
-* Vue app - http://localhost:8081/
+* Vue app - http://localhost:8080/
 
 * Web Components Demos - http://localhost:8090/
 

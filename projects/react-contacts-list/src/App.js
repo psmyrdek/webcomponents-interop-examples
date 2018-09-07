@@ -1,6 +1,6 @@
 import {Component, createElement} from 'react';
 import {render} from 'react-dom';
-import {defineCustomElements} from './defineCustomElements'
+import {defineCustomElements} from '../../../web-components/index';
 
 defineCustomElements();
 

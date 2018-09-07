@@ -10,6 +10,9 @@
     <smart-greetings recipient="John Doe"></smart-greetings>
     <smart-clock></smart-clock>
 
-    <script type="module" src="./index.js"></script>
+    <script type="module">
+        import {defineCustomElements} from './index.js'
+        defineCustomElements();
+    </script>
 </body>
 </html>
