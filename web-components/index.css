@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 10px 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -9,7 +9,7 @@ header {
 }
 
 .element-wrapper {
-    margin: 10px;
+    margin: 20px;
     border: 1px solid #ececec;
     border-bottom: 3px solid #e8e8e8;
 }
