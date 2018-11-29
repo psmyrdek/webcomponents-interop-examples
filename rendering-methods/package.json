@@ -12,6 +12,7 @@
     "live-server": "1.2.1"
   },
   "dependencies": {
+    "angular": "1.7.5",
     "lit-html": "0.13.0"
   }
 }
