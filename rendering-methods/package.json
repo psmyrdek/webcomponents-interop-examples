@@ -1,0 +1,17 @@
+{
+  "name": "rendering-methods",
+  "version": "1.0.0",
+  "description": "Simple project presenting various methods of rendering custom elements content",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "1.2.1"
+  },
+  "dependencies": {
+    "lit-html": "0.13.0"
+  }
+}
